@@ -28,3 +28,14 @@ git log
 
 #Show shortened commit log
 git log --oneline
+
+Branching
+
+#List all the branches available
+git branch -a
+
+# Create a new branch
+git branch "branch_name"
+
+#Switch to a different branchg
+git switch "branch_name"
