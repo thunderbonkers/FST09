@@ -37,5 +37,23 @@ git branch -a
 # Create a new branch
 git branch "branch_name"
 
-#Switch to a different branchg
+#Switch to a different branching
 git switch "branch_name"
+
+# Merging branches
+git merge "branch_name"
+
+# Delete a branch
+git branch -d "branch_name"
+
+# Connect the local repository to the remote repository
+git remote add origin [repository-url]
+
+# Rename the master branch to main
+git branch -M main
+
+# Initially create a push
+git push -u origin main
+
+# Push the code from local to remote
+git push
