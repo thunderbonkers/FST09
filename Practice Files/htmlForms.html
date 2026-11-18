@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="family-name-id">Family Name:</label>
+        <input type="text" name="user-family-name" id="family-name-id" />
+      </div>
+
+      <div>
+        <label for="other-name-id">Other Name:</label>
+        <input type="text" name="user-other-name" id="" other-name-id />
+      </div>
+
+      <div>
+        <label for="other-name-id">Age:</label>
+        <input type="number" name="user-age" id="age-id" min="12" max="60" />
+      </div>
+
+      <div>
+        <label for="country-id">Country</label>
+        <select name="user-country" id="country-id">
+          <option value="none" selected disabled>
+            --Select Your Country--
+          </option>
+          <option value="PH">Philippines</option>
+          <option value="US">United States</option>
+          <option value="UK">United Kingdom</option>
+          <option value="AU">Australia</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="">Gender: </label>
+        <input type="radio" id="female-id" name="user-gender" value="Female" />
+        <label for="female-id">Female</label>
+
+        <input type="radio" id="male-id" name="user-gender" value="Male" />
+        <label for="male-id">Male</label>
+      </div>
+
+      <div>
+        <label for="">Course</label>
+
+        <input
+          type="checkbox"
+          name="user-course"
+          id="engineering-id"
+          value="engr"
+        />
+        <label for="engineering-id">Enginnering</label>
+
+        <input type="checkbox" name="user-course" id="it-id" value="IT" />
+        <label for="engineering-id">IT</label>
+
+        <input type="checkbox" name="user-course" id="law-id" value="law" />
+        <label for="law-id">Law</label>
+      </div>
+
+      <div>
+        <label for="comments-id">Comments</label>
+        <br />
+        <textarea
+          name="user-comments"
+          id="comments-id"
+          placeholder="What's on your mind?"
+        ></textarea>
+      </div>
+
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
